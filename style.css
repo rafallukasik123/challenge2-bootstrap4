@@ -244,3 +244,22 @@ height: auto;
     }
     
   }
+
+  footer{
+
+        background-color: rgb(38, 38, 38);
+      
+      
+  }
+
+  footer div{
+
+        font-size: 16px;
+        font-family: "Raleway";
+        color: rgb(185, 185, 185);
+        line-height: 1.563;
+ 
+        text-decoration: none;
+      
+      
+  }
