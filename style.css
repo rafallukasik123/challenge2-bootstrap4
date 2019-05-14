@@ -190,3 +190,57 @@ height: auto;
     }
     
   }
+
+  .services{
+   
+        background-color: rgb(112, 191, 255);
+      
+      
+  }
+
+  .services_h1{
+   
+        font-size: 90px;
+        font-family: "Raleway";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 0.3;
+        text-align: right;
+        font-size: 70px;
+        font-weight: 700;
+        position: absolute;
+        color: #fff;
+        white-space: nowrap;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-shadow: 1px 2px 5px #000000;
+      
+      
+  }
+
+  .services_buttons > *{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      padding: 2%;
+      margin: 3%;
+
+
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+    .services_h1{
+        font-size: 50px;
+    }
+    
+  }
+  @media only screen and (max-width: 440px) {
+    .services_h1{
+        font-size: 30px;
+    }
+    
+  }
